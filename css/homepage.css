@@ -1,0 +1,84 @@
+body {
+    min-width: 1200px;
+    background-color: #eeeff1;
+}
+body {
+    font-family: 'Hiragino Sans GB','Microsoft YaHei','黑体',sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+}
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+user agent stylesheetbody {
+    display: block;
+    margin: 8px;
+}
+Pseudo ::before element
+:after, :before {
+    box-sizing: border-box;
+}
+body>header .location {
+    position: relative;
+    height: auto;
+}
+body .ui-page>.container, body .ui-page>header .location, body .ui-page>header .toolbar, body>.container, body>header .location, body>header .toolbar {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body>header>div:first-child {
+    background: #fff;
+}
+div{
+    margin:10px 10px 10px 10px;
+
+}
+ul,li{
+    margin:10px;
+    padding:0
+    list-style:none;
+}
+.login{
+    font-size:20px;
+
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+form.search{
+
+}
+.head-search {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+}
+.search .search-query {
+    float: left;
+    padding: 0 15px;
+    margin: 0;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    border: 1px solid #f46;
+    width: 480px;
+}
+.search .frontpage-search-trigger {
+    float: left;
+    border: 0;
+    padding: 0;
+    margin: 0 0 0 -1px;
+    height: 45px;
+    background: #f46;
+    width: 60px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    color: #fff;
+    font-size: 18px;
+}
