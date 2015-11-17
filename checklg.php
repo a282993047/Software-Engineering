@@ -21,7 +21,7 @@ if($num)
     {
         setcookie("USER",$name,time()+3600*24);
         echo "登录成功，正在为您跳转至登录前页面";
-       // header("location:2.php");
+        header("location:homepage.php");
     }
     else
     {
