@@ -27,7 +27,7 @@
     <div>
         <div class="location">
             <div class="head-search">
-                <form action="/root/" class="search">
+                <form action="lookup.php" class="search" method="post">
                     <input onfocus="this.select();return false;" placeholder="请输入关键词或分类名" value="" x-webkit-speech lang="zh-CN"
                     name="query" class="input search-query ui-autocomplete-input" autocomplete="off">
                     <button type="submit" title="搜索"  class="frontpage-search-trigger
@@ -123,5 +123,6 @@
     </section>
 </div>
 <script src="./js/bootstrap.js"></script>
+<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
 </body>
 </html>
