@@ -12,10 +12,10 @@
         <ul id="user-tools" class="navbar-nav">
             <?php if(!isset($_COOKIE["USER"])) { ?>
                 <li >
-                    <a class="login"href="login.html" data-toggle="userAuth" datatype="login">登录</a>
+                    <a class="login" href="login.html" data-toggle="userAuth" datatype="login">登录</a>
                 </li>
                 <li>
-                    <a class="login"href="register.html" data-toggle="userAuth" datatype="reg">注册</a>
+                    <a class="login" href="register.html" data-toggle="userAuth" datatype="reg">注册</a>
                 </li>
             <?php } else { echo $_COOKIE["USER"];?>
                 <li>
@@ -28,7 +28,7 @@
         <div class="location">
             <div class="head-search">
                 <form action="lookup.php" class="search" method="post">
-                    <input onfocus="this.select();return false;" placeholder="请输入关键词或分类名" value="" x-webkit-speech lang="zh-CN"
+                    <input onfocus="this.select();return false;" placeholder="请输入关键词或分类名" value="x-webkit-speech"  lang="zh-CN"
                     name="query" class="input search-query ui-autocomplete-input" autocomplete="off">
                     <button type="submit" title="搜索"  class="frontpage-search-trigger
                     search-trigger
@@ -56,10 +56,10 @@
                 </header>
                 <div class="links">
                     <div class="content">
-                        <a class="type"id="English" href="lookup1.php?y=English" target="_blank">英语</a>
-                        <a href="lookup1.php?y=math" target="_blank">数学</a>
-                        <a href="lookup1.php?y=computer" target="_blank">计算机</a>
-                        <a href="lookup1.php?y=financial" target="_blank">金融</a>
+                        <a class="type" id="English" href="newlookup1.php?y=English" target="_blank">英语</a>
+                        <a href="newlookup1.php?y=math" target="_blank">数学</a>
+                        <a href="newlookup1.php?y=computer" target="_blank">计算机</a>
+                        <a href="newlookup1.php?y=financial" target="_blank">金融</a>
                     </div>
                 </div>
             </div>
