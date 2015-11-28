@@ -26,15 +26,17 @@ $result = mysql_query($sql);
             </a>
             <div class="media-body">
                 <div class="media-body-title">
-                    <span class="highlight">￥<?php echo $row['bookprice'] ?></span>
+                    <a href="homepage.php" target="_blank" class="name"><?php echo $row['bookname']?></a>
                     <a href="homepage.php" target="_blank" class="ad-title"><?php echo $row['message'] ?></a>
+                    <span class="highlight">￥<?php echo $row['bookprice'] ?></span>
                 </div>
             </div>
         </li>
-        <?php }mysql_close($con);
+        <?php }
+        mysql_close($con);
         ?>
     </ul>
-
 </div>
+
 </body>
 </html>
