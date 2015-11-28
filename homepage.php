@@ -56,10 +56,10 @@
                 </header>
                 <div class="links">
                     <div class="content">
-                        <a href="" target="_blank">英语</a>
-                        <a href="" target="_blank">数学</a>
-                        <a href="" target="_blank">计算机</a>
-                        <a href="" target="_blank">金融</a>
+                        <a class="type"id="English" href="lookup1.php?y=English" target="_blank">英语</a>
+                        <a href="lookup1.php?y=math" target="_blank">数学</a>
+                        <a href="lookup1.php?y=computer" target="_blank">计算机</a>
+                        <a href="lookup1.php?y=financial" target="_blank">金融</a>
                     </div>
                 </div>
             </div>
@@ -122,7 +122,10 @@
 
     </section>
 </div>
-<script src="./js/bootstrap.js"></script>
 <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script>
+
+</script>
 </body>
 </html>
