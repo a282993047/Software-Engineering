@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97ea8dba-8de8-405b-8b43-d28c4fc5f0f0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lookuptable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage.php" afterPath="$PROJECT_DIR$/homepage.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlookup.php" afterPath="$PROJECT_DIR$/newlookup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlookup1.php" afterPath="$PROJECT_DIR$/newlookup1.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Software-Engineering.iws" />
@@ -25,51 +28,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lookup1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lookup1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="18" />
-              <folding>
-                <marker date="1448708555160" expanded="true" signature="476:512" placeholder="select * fro..BOOK1..." />
-                <marker date="1448708555160" expanded="true" signature="476:515" placeholder="select * fro..BOOK1..." />
-                <marker date="1448708555160" expanded="true" signature="476:523" placeholder="select * fro..BOOK1..." />
-                <marker date="1448708555160" expanded="true" signature="570:603" placeholder="DELETE FROM ..." />
-                <marker date="1448708555160" expanded="true" signature="629:662" placeholder="DELETE FROM ..." />
-                <marker date="1448708555160" expanded="true" signature="629:671" placeholder="DELETE FROM ..." />
-                <marker date="1448708555160" expanded="true" signature="755:780" placeholder="..." />
-                <marker date="1448708555160" expanded="true" signature="815:893" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lookup.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lookup.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="18" />
-              <folding>
-                <marker date="1448463725810" expanded="true" signature="483:534" placeholder="select * fro..BOOK1..." />
-                <marker date="1448463725810" expanded="true" signature="546:599" placeholder="select * fro..CLOTH1..." />
-                <marker date="1448463725810" expanded="true" signature="611:672" placeholder="select * fro..LIFETHING1..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newlookup.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="newlookup.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newlookup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5421687">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state vertical-scroll-proportion="-67.03846">
+              <caret line="95" column="97" selection-start-line="95" selection-start-column="97" selection-end-line="95" selection-end-column="97" />
               <folding>
-                <marker date="1448891145912" expanded="true" signature="1155:1206" placeholder="select * fro..BOOK1..." />
-                <marker date="1448891145912" expanded="true" signature="1390:1410" placeholder="select * fro..BOOK1..." />
-                <marker date="1448891145912" expanded="true" signature="1390:1411" placeholder="select * fro..BOOK1..." />
-                <marker date="1448891145912" expanded="true" signature="1428:1449" placeholder="select * fro..CLOTH1..." />
-                <marker date="1448891145912" expanded="true" signature="1428:1450" placeholder="select * fro..CLOTH1..." />
-                <marker date="1448891145912" expanded="true" signature="1467:1492" placeholder="select * fro..LIFETHING1..." />
+                <marker date="1448895736688" expanded="true" signature="1135:1186" placeholder="select * fro..BOOK1..." />
+                <marker date="1448895736688" expanded="true" signature="1370:1390" placeholder="select * fro..BOOK1..." />
+                <marker date="1448895736688" expanded="true" signature="1370:1391" placeholder="select * fro..BOOK1..." />
+                <marker date="1448895736688" expanded="true" signature="1408:1429" placeholder="select * fro..CLOTH1..." />
+                <marker date="1448895736688" expanded="true" signature="1408:1430" placeholder="select * fro..CLOTH1..." />
+                <marker date="1448895736688" expanded="true" signature="1447:1472" placeholder="select * fro..LIFETHING1..." />
               </folding>
             </state>
           </provider>
@@ -78,21 +48,35 @@
       <file leaf-file-name="newlookup1.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newlookup1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0">
-              <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
+            <state vertical-scroll-proportion="-17.807692">
+              <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
               <folding>
-                <marker date="1448720862784" expanded="true" signature="431:478" placeholder="select * fro..BOOK1..." />
+                <marker date="1448895614536" expanded="true" signature="431:478" placeholder="select * fro..BOOK1..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepage.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="homepage.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homepage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6153846">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state vertical-scroll-proportion="-2.5903614">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lookuptable.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lookuptable.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.346154">
+              <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+              <folding>
+                <marker date="1448895614548" expanded="true" signature="431:445" placeholder="select * fro..." />
+                <marker date="1448895614548" expanded="true" signature="431:446" placeholder="select * fro..$..." />
+                <marker date="1448895614548" expanded="true" signature="431:451" placeholder="select * fro..BOOK1..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,11 +116,12 @@
         <option value="$PROJECT_DIR$/lookup.php" />
         <option value="$PROJECT_DIR$/bootstrap-3.3.5-dist/newlookup1.php" />
         <option value="$PROJECT_DIR$/lookup1.php" />
-        <option value="$PROJECT_DIR$/homepage.php" />
-        <option value="$PROJECT_DIR$/newlookup1.php" />
         <option value="$PROJECT_DIR$/css/lookup1.css" />
         <option value="$PROJECT_DIR$/phpini.php" />
+        <option value="$PROJECT_DIR$/newlookup1.php" />
+        <option value="$PROJECT_DIR$/lookuptable.php" />
         <option value="$PROJECT_DIR$/newlookup.php" />
+        <option value="$PROJECT_DIR$/homepage.php" />
       </list>
     </option>
   </component>
@@ -299,7 +284,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448721201335</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2015/11/30/22:07">
+      <created>1448892455273</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1448892455273</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -317,6 +308,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1555387" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931036" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931036" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -325,7 +317,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931036" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -350,7 +341,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2015/11/28/19:00" />
     <MESSAGE value="2015/11/28/22:33" />
-    <option name="LAST_COMMIT_MESSAGE" value="2015/11/28/22:33" />
+    <MESSAGE value="2015/11/30/22:07" />
+    <option name="LAST_COMMIT_MESSAGE" value="2015/11/30/22:07" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -369,6 +361,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding>
+            <element signature="e#3297#3452#1" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -673,23 +668,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.18214937">
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="e#3297#3452#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lookup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5793499">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="18" />
+          <folding>
+            <marker date="1448463725810" expanded="true" signature="-1:-1" placeholder="select * fro..BOOK1..." />
+            <marker date="1448463725810" expanded="true" signature="-1:-1" placeholder="select * fro..CLOTH1..." />
+            <marker date="1448463725810" expanded="true" signature="-1:-1" placeholder="select * fro..LIFETHING1..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lookup1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="1.1472275">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="18" />
-          <folding>
-            <marker date="1448708555160" expanded="true" signature="476:512" placeholder="select * fro..BOOK1..." />
-            <marker date="1448708555160" expanded="true" signature="476:515" placeholder="select * fro..BOOK1..." />
-            <marker date="1448708555160" expanded="true" signature="476:523" placeholder="select * fro..BOOK1..." />
-            <marker date="1448708555160" expanded="true" signature="570:603" placeholder="DELETE FROM ..." />
-            <marker date="1448708555160" expanded="true" signature="629:662" placeholder="DELETE FROM ..." />
-            <marker date="1448708555160" expanded="true" signature="629:671" placeholder="DELETE FROM ..." />
-            <marker date="1448708555160" expanded="true" signature="755:780" placeholder="..." />
-            <marker date="1448708555160" expanded="true" signature="815:893" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -701,48 +702,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lookup.php">
+    <entry file="file://$PROJECT_DIR$/lookuptable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="18" />
+        <state vertical-scroll-proportion="-9.346154">
+          <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
           <folding>
-            <marker date="1448463725810" expanded="true" signature="483:534" placeholder="select * fro..BOOK1..." />
-            <marker date="1448463725810" expanded="true" signature="546:599" placeholder="select * fro..CLOTH1..." />
-            <marker date="1448463725810" expanded="true" signature="611:672" placeholder="select * fro..LIFETHING1..." />
+            <marker date="1448895614548" expanded="true" signature="431:445" placeholder="select * fro..." />
+            <marker date="1448895614548" expanded="true" signature="431:446" placeholder="select * fro..$..." />
+            <marker date="1448895614548" expanded="true" signature="431:451" placeholder="select * fro..BOOK1..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newlookup1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
+        <state vertical-scroll-proportion="-17.807692">
+          <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
           <folding>
-            <marker date="1448720862784" expanded="true" signature="431:478" placeholder="select * fro..BOOK1..." />
+            <marker date="1448895614536" expanded="true" signature="431:478" placeholder="select * fro..BOOK1..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newlookup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-67.03846">
+          <caret line="95" column="97" selection-start-line="95" selection-start-column="97" selection-end-line="95" selection-end-column="97" />
+          <folding>
+            <marker date="1448895736688" expanded="true" signature="1135:1186" placeholder="select * fro..BOOK1..." />
+            <marker date="1448895736688" expanded="true" signature="1370:1390" placeholder="select * fro..BOOK1..." />
+            <marker date="1448895736688" expanded="true" signature="1370:1391" placeholder="select * fro..BOOK1..." />
+            <marker date="1448895736688" expanded="true" signature="1408:1429" placeholder="select * fro..CLOTH1..." />
+            <marker date="1448895736688" expanded="true" signature="1408:1430" placeholder="select * fro..CLOTH1..." />
+            <marker date="1448895736688" expanded="true" signature="1447:1472" placeholder="select * fro..LIFETHING1..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homepage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6153846">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state vertical-scroll-proportion="-2.5903614">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newlookup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5421687">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <marker date="1448891145912" expanded="true" signature="1155:1206" placeholder="select * fro..BOOK1..." />
-            <marker date="1448891145912" expanded="true" signature="1390:1410" placeholder="select * fro..BOOK1..." />
-            <marker date="1448891145912" expanded="true" signature="1390:1411" placeholder="select * fro..BOOK1..." />
-            <marker date="1448891145912" expanded="true" signature="1428:1449" placeholder="select * fro..CLOTH1..." />
-            <marker date="1448891145912" expanded="true" signature="1428:1450" placeholder="select * fro..CLOTH1..." />
-            <marker date="1448891145912" expanded="true" signature="1467:1492" placeholder="select * fro..LIFETHING1..." />
-          </folding>
         </state>
       </provider>
     </entry>

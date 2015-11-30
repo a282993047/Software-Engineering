@@ -9,24 +9,24 @@
 <body>
 <?php
 function makeSql($key1='',$key2='',$key3='',$key4=''){//多关键字查询
-    $sql    =    'where bookname ';
+    $sql    =    'where name ';
     if ($key1!=''){
         $title1    =    "like '%$key1%'";
         $sql.=$title1;
     }
     if ($key2!=''){
         $title2    =    "like '%$key2%'";
-        $sql.='or bookname '.$title2;
+        $sql.='or name '.$title2;
     }
     if ($key3!=''){
         $title3    =    "like '%$key3%'";
-        $sql.='or bookname '.$title3;
+        $sql.='or name '.$title3;
     }
     if ($key4!=''){
         $title4    =    "like '%$key4%'";
-        $sql.='or bookname '.$title4;
+        $sql.='or name '.$title4;
     }
-    if ($sql=='where bookname '){
+    if ($sql=='where name '){
         return '';
     }
     return $sql;
@@ -63,8 +63,8 @@ $result2 = mysql_query($sql2);
                 </a>
                 <div class="media-body">
                     <div class="media-body-title">
-                        <a href="homepage.php" target="_blank" class="ad-title"><?php echo $row['message'] ?></a>
-                        <span class="highlight">￥<?php echo $row['bookprice'] ?></span>
+                        <a href="homepage.php" target="_blank" class="ad-title"><?php echo $row['name'] ?></a>
+                        <span class="highlight">￥<?php echo $row['price'] ?></span>
                     </div>
                 </div>
             </li>
@@ -79,8 +79,8 @@ $result2 = mysql_query($sql2);
 
                 <div class="media-body">
                     <div class="media-body-title">
-                        <a href="homepage.php" target="_blank" class="ad-title"><?php echo $row['message'] ?></a>
-                        <span class="highlight">￥<?php echo $row['clothprice'] ?></span>
+                        <a href="homepage.php" target="_blank" class="ad-title"><?php echo $row['name'] ?></a>
+                        <span class="highlight">￥<?php echo $row['price'] ?></span>
                     </div>
                 </div>
             </li>
@@ -93,8 +93,8 @@ $result2 = mysql_query($sql2);
 
             <div class="media-body">
                 <div class="media-body-title">
-                    <a href="homepage.php" target="_blank" class="ad-title"><?php echo $row['message'] ?></a>
-                    <span class="highlight">￥<?php echo $row['lifethingprice'] ?></span>
+                    <a href="homepage.php" target="_blank" class="ad-title"><?php echo $row['name'] ?></a>
+                    <span class="highlight">￥<?php echo $row['price'] ?></span>
                 </div>
             </div>
         </li>

@@ -37,7 +37,7 @@
                 </form>
             </div>
             <div class="pull-right">
-                <a href="" class="post">发布信息</a>
+                <a href="http://shanghai.baixing.com/fabu/" class="post">发布信息</a>
                 <a id="manage" href="http://www.baixing.com/w/posts?src=topbar-modify-delete" data-toggle="userAuth" data-type="user">修改/删除信息</a>
 
             </div>
@@ -49,7 +49,7 @@
         <section class="category-col category-ershou home-col-1">
             <div class="home-box">
                 <header>
-                    <a href="" target="_blank" class="title"><!--target=_blank表示在新窗口中打开-->
+                    <a href="lookuptable.php?y=book1" target="_blank" class="title"><!--target=_blank表示在新窗口中打开-->
                         <h3>二手书</h3>
                         <i class="icon icon-ershou"></i>
                     </a>
@@ -60,6 +60,7 @@
                         <a href="newlookup1.php?y=math" target="_blank">数学</a>
                         <a href="newlookup1.php?y=computer" target="_blank">计算机</a>
                         <a href="newlookup1.php?y=financial" target="_blank">金融</a>
+                        <a href="newlookup1.php?y=novel" target="_blank">小说</a>
                     </div>
                 </div>
             </div>
@@ -67,7 +68,7 @@
         <section class="category-col category-ershou home-col-1">
             <div class="home-box">
                 <header>
-                    <a href="" target="_blank" class="title"><!--target=_blank表示在新窗口中打开-->
+                    <a href="lookuptable.php?y=cloth1" target="_blank" class="title"><!--target=_blank表示在新窗口中打开-->
                         <h3>二手衣物</h3>
                         <i class="icon icon-ershou"></i>
                     </a>
@@ -85,7 +86,7 @@
         <section class="category-col category-ershou home-col-1">
             <div class="home-box">
                 <header>
-                    <a href="" target="_blank" class="title"><!--target=_blank表示在新窗口中打开-->
+                    <a href="lookuptable.php?y=lifething" target="_blank" class="title"><!--target=_blank表示在新窗口中打开-->
                         <h3>日用品</h3>
                         <i class="icon icon-ershou"></i>
                     </a>
