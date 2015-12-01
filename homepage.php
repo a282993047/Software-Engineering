@@ -37,7 +37,7 @@
                 </form>
             </div>
             <div class="pull-right">
-                <a href="http://shanghai.baixing.com/fabu/" class="post">发布信息</a>
+                <a href="fabu.php" class="post">发布信息</a>
                 <a id="manage" href="http://www.baixing.com/w/posts?src=topbar-modify-delete" data-toggle="userAuth" data-type="user">修改/删除信息</a>
 
             </div>
