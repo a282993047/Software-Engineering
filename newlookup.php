@@ -8,7 +8,7 @@
 </head>
 <body>
 <?php
-function makeSql($key1='',$key2='',$key3='',$key4=''){//多关键字查询
+/*function makeSql($key1='',$key2='',$key3='',$key4=''){//多关键字查询
     $sql    =    'where name ';
     if ($key1!=''){
         $title1    =    "like '%$key1%'";
@@ -30,6 +30,15 @@ function makeSql($key1='',$key2='',$key3='',$key4=''){//多关键字查询
         return '';
     }
     return $sql;
+}*/
+function makeSql($names){//多关键字查询
+    $sql = 'where name ';
+    if(!$names || empty($names)) return '';
+    for($i=0;$i<count($names);$i++) {
+        if($i==0) $sql.= "like '%$names[$i]%'";
+        else $sql.= "or name like '%$names[$i]%'";
+    }
+    return $sql;
 }
 $con = mysql_connect("localhost","root","");
 mysql_query("set names utf8");
@@ -43,8 +52,8 @@ $name1=split(' ',$name);
 //$sql = "select * from BOOK1 where bookname LIKE '%{$name}%' ";
 //var_dump(makeSql($name1));
 //echo makeSql($name1[0],$name1[1],$name1[2],$name1[3]);
-$name2=makeSql($name1[0],$name1[1],$name1[2],$name1[3]);
-//var_dump(makeSql($name2));
+//$name2=makeSql($name1[0],$name1[1],$name1[2],$name1[3]);
+$name2 = makeSql($name1);
 $sql = "select * from BOOK1 $name2 ";
 $sql1= "select * from CLOTH1 $name2 ";
 $sql2= "select * from LIFETHING1 $name2 ";
