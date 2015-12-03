@@ -324,5 +324,96 @@ div {
     display: block;
 }
 
+.clearfix:after, .clearfix:before {
+    content: " ";
+    display: table;
+}
+
+#publish {
+    margin: 32px 0 24px;
+    padding: 16px 16px 36px;
+    border: 1px solid #dedede;
+    background-color: #fff;
+}
+
+#publish .separate {
+    padding-left: 360px;
+    padding-bottom: 8px;
+    margin: 16px 0 8px;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 700;
+    border-bottom: 1px solid #dedede;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+#publish .p-line {
+    padding: 16px 0;
+    font-size: 16px;
+    position: relative;
+}
+
+#publish .p-line .p-label {
+    display: inline-block;
+    width: 350px;
+    text-align: right;
+    margin-right: 6px;
+    padding: 0;
+}
+
+label {
+    cursor: default;
+}
+
+.highlight, .required {
+    color: #ec5524;
+}
+
+#publish .p-line .publish-detail-item {
+    display: inline-block;
+    position: relative;
+    max-width: 650px;
+}
+
+#publish .p-line .publish-detail-item .input-400, #publish .p-line .publish-detail-item .input-60, #publish .p-line .publish-detail-item .input-larger {
+    width: 390px;
+}
+
+#publish .p-line .publish-detail-item .input {
+    box-sizing: border-box;
+    height: 40px;
+    margin-right: 6px;
+    vertical-align: middle;
+    border: 1px solid #aaa;
+}
+
+button, input, select, textarea {
+    font: 500 14px/1.8 'Hiragino Sans GB','Microsoft YaHei','黑体',serif;
+}
+
+input, input[type=password], input[type=search], select, textarea {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    font-size: 1em;
+    padding: .5em;
+    outline: 0;
+    -webkit-transition: box-shadow .217s ease;
+    transition: box-shadow .217s ease;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+#publish .p-line .publish-detail-item .input-400, #publish .p-line .publish-detail-item .input-60, #publish .p-line .publish-detail-item .input-larger {
+    width: 390px;
+}
+
 
 

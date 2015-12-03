@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="./css/lookup1.css" type="text/css">
     <title>华师大二手网站</title>
 </head>

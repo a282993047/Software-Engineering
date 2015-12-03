@@ -50,6 +50,27 @@
 			<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
 			<li class="flow-item"><label class="i-badge">3</label>完成发布</li>
 		</ul>
+		<div class="clearfix">
+			<div id="publish" class="publish-detail">
+				<div class="separate">基本信息</div>
+				<form id="bxForm" action="insert.php" method="post" style class="form">
+					<div class="fabuform-tab"></div>
+					<div class="fabuform-tab-content">
+						<div class="p-line">
+							<label  class="p-label">
+								<span class="required">*</span>
+								标题：
+							</label>
+							<div class="publish-detail-item">
+								<input id="title" type="text" name="title" maxlength="25" class="input-60 input">
+							</div>
+						</div>
+
+					</div>
+				</form>
+
+			</div>
+		</div>
 	</div>
 	<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
 	<script src="./js/jquery.qrcode.min.js"></script>
