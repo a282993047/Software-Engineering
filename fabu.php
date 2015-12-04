@@ -66,6 +66,51 @@
 							</div>
 						</div>
 
+						<div class="p-line input-select-control-ie67">
+							<label  class="p-label">
+								<span class="required">*</span>
+								类目：
+							</label>
+							<div class="publish-detail-item">
+								<select class="input input-6" name="类目">
+									<option value></option>
+									<option value="book1">二手书</option>
+									<option value="cloth1">二手衣物</option>
+									<option value="lifething1">日用品</option>
+									<option value="others">其他</option>
+								</select>
+								<select class="input" name="具体类别">
+									<option value>请选择</option>
+								</select>
+							</div>
+						</div>
+						<div class="p-line">
+							<label  class="p-label">
+								<span class="required">*</span>
+								价格：
+							</label>
+							<div class="publish-detail-item"><input type="text" name="价格" maxlength="6" class="input-6 input">
+								<span class="fabuform-unit">元</span>
+							</div>
+						</div>
+						<div class="p-line">
+							<label class="p-label">
+								<span class="required">*</span>描述：
+							</label>
+							<div class="publish-detail-item">
+								<textarea class="input" name="content" placeholder="写清商品的基本情况、交易方式/时间等" maxlength="5000" size="5" style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 115px;"></textarea>
+							</div>
+						</div>
+						<div class="p-line">
+							<label class="p-label">
+								<span class="required">*</span>
+								联系电话：
+							</label>
+							<div class="publish-detail-item">
+								<input type="text" name="contact" maxlength="30" class="input-5 input">
+							</div>
+						</div>
+
 					</div>
 				</form>
 

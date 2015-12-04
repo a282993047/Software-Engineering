@@ -415,5 +415,88 @@ button, input, optgroup, select, textarea {
     width: 390px;
 }
 
+#publish .p-line .publish-detail-item .input-, #publish .p-line .publish-detail-item .input-150, #publish .p-line .publish-detail-item .input-6, #publish .p-line .publish-detail-item .input-medium {
+    width: 200px;
+}
 
+#publish .p-line .publish-detail-item textarea.input {
+    height: 115px;
+}
+
+#publish .p-line .publish-detail-item .input {
+    box-sizing: border-box;
+    height: 40px;
+    margin-right: 6px;
+    vertical-align: middle;
+    border: 1px solid #aaa;
+}
+
+#publish .p-line .publish-detail-item textarea {
+    width: 390px;
+    height: 115px;
+}
+select, textarea {
+    border-radius: 2px;
+    font-size: 1em;
+    padding: .5em;
+}
+
+button, input, select, textarea {
+    font: 500 14px/1.8 'Hiragino Sans GB','Microsoft YaHei','黑体',serif;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+input, input[type=password], input[type=search], select, textarea {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    font-size: 1em;
+    padding: .5em;
+    outline: 0;
+    -webkit-transition: box-shadow .217s ease;
+    transition: box-shadow .217s ease;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+textarea {
+    -webkit-appearance: textarea;
+    background-color: white;
+    border: 1px solid;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    flex-direction: column;
+    cursor: auto;
+    padding: 2px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+input, textarea, keygen, select, button, isindex {
+    margin: 0em;
+    font:inherit;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+
+input, textarea, keygen, select, button, isindex, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
 
