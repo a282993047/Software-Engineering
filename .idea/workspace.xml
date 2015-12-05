@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97ea8dba-8de8-405b-8b43-d28c4fc5f0f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lookuptable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage.php" afterPath="$PROJECT_DIR$/homepage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlookup.php" afterPath="$PROJECT_DIR$/newlookup.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newlookup1.php" afterPath="$PROJECT_DIR$/newlookup1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabu.php" afterPath="$PROJECT_DIR$/fabu.php" />
+    </list>
+    <list id="6818a4e7-b640-411d-9393-03a22e1b59f7" name="Rejected commit: Default" comment="Merge branch 'master' of github.com:a282993047/Software-Engineering&#10;&#10;# Conflicts:&#10;#&#9;newlookup.php&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Software-Engineering.iws" />
@@ -28,19 +27,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="newlookup.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newlookup.php">
+      <file leaf-file-name="homepage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homepage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-67.03846">
-              <caret line="95" column="97" selection-start-line="95" selection-start-column="97" selection-end-line="95" selection-end-column="97" />
-              <folding>
-                <marker date="1448895736688" expanded="true" signature="1135:1186" placeholder="select * fro..BOOK1..." />
-                <marker date="1448895736688" expanded="true" signature="1370:1390" placeholder="select * fro..BOOK1..." />
-                <marker date="1448895736688" expanded="true" signature="1370:1391" placeholder="select * fro..BOOK1..." />
-                <marker date="1448895736688" expanded="true" signature="1408:1429" placeholder="select * fro..CLOTH1..." />
-                <marker date="1448895736688" expanded="true" signature="1408:1430" placeholder="select * fro..CLOTH1..." />
-                <marker date="1448895736688" expanded="true" signature="1447:1472" placeholder="select * fro..LIFETHING1..." />
-              </folding>
+            <state vertical-scroll-proportion="-11.538462">
+              <caret line="61" column="59" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="59" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,7 +40,7 @@
       <file leaf-file-name="newlookup1.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newlookup1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.807692">
+            <state vertical-scroll-proportion="-23.076923">
               <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
               <folding>
                 <marker date="1448895614536" expanded="true" signature="431:478" placeholder="select * fro..BOOK1..." />
@@ -57,35 +49,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepage.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/homepage.php">
+      <file leaf-file-name="newlookup.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newlookup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5903614">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lookuptable.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lookuptable.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.346154">
-              <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+            <state vertical-scroll-proportion="62.96154">
+              <caret line="4" column="80" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="80" />
               <folding>
-                <marker date="1448895614548" expanded="true" signature="431:445" placeholder="select * fro..." />
-                <marker date="1448895614548" expanded="true" signature="431:446" placeholder="select * fro..$..." />
-                <marker date="1448895614548" expanded="true" signature="431:451" placeholder="select * fro..BOOK1..." />
+                <marker date="1449146528860" expanded="true" signature="1649:1669" placeholder="select * fro..BOOK1..." />
+                <marker date="1449146528860" expanded="true" signature="1687:1708" placeholder="select * fro..CLOTH1..." />
+                <marker date="1449146528860" expanded="true" signature="1726:1751" placeholder="select * fro..LIFETHING1..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lookup1.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/lookup1.css">
+      <file leaf-file-name="fabu.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fabu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.63907284">
+              <caret line="171" column="13" selection-start-line="169" selection-start-column="12" selection-end-line="171" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertfabu.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/insertfabu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.3846154">
+              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkreg.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/checkreg.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="49" />
+              <folding>
+                <marker date="1448460214956" expanded="true" signature="607:669" placeholder="INSERT INTO ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fabu.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/fabu.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="179" column="1" selection-start-line="179" selection-start-column="1" selection-end-line="179" selection-end-column="1" />
+              <caret line="555" column="26" selection-start-line="555" selection-start-column="26" selection-end-line="555" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -109,7 +123,6 @@
       <list>
         <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/logout.php" />
-        <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/css/homepage.css" />
         <option value="$PROJECT_DIR$/checkreg.php" />
         <option value="$PROJECT_DIR$/checklg.php" />
@@ -120,8 +133,12 @@
         <option value="$PROJECT_DIR$/phpini.php" />
         <option value="$PROJECT_DIR$/newlookup1.php" />
         <option value="$PROJECT_DIR$/lookuptable.php" />
+        <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/newlookup.php" />
         <option value="$PROJECT_DIR$/homepage.php" />
+        <option value="$PROJECT_DIR$/css/fabu.css" />
+        <option value="$PROJECT_DIR$/insertfabu.php" />
+        <option value="$PROJECT_DIR$/fabu.php" />
       </list>
     </option>
   </component>
@@ -165,8 +182,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -195,7 +210,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -209,12 +224,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap-3.3.5-dist" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,6 +243,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="list.type.of.created.stylesheet" value="PLAIN_TEXT" />
     <property name="SearchEverywhereHistoryKey" value="x-webkit-speech&#9;null&#9;null" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -290,7 +308,49 @@
       <option name="project" value="LOCAL" />
       <updated>1448892455273</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2015/11/30/23:04">
+      <created>1448895862323</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1448895862323</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge branch 'master' of github.com:a282993047/Software-Engineering&#10;&#10;# Conflicts:&#10;#&#9;newlookup.php&#10;">
+      <created>1448971300835</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1448971300836</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge branch 'master' of github.com:a282993047/Software-Engineering&#10;&#10;# Conflicts:&#10;#&#9;newlookup.php&#10;">
+      <created>1448986141308</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1448986141308</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge branch 'master' of github.com:a282993047/Software-Engineering&#10;&#10;# Conflicts:&#10;#&#9;newlookup.php&#10;12/2/22:58">
+      <created>1449068358516</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1449068358516</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge branch 'master' of github.com:a282993047/Software-Engineering&#10;&#10;# Conflicts:&#10;#&#9;newlookup.php&#10;2015/12/3">
+      <created>1449156467736</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1449156467736</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge branch 'master' of github.com:a282993047/Software-Engineering&#10;&#10;# Conflicts:&#10;#&#9;newlookup.php&#10;发布页修改">
+      <created>1449246010354</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1449246010354</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge branch 'master' of github.com:a282993047/Software-Engineering&#10;&#10;# Conflicts:&#10;#&#9;newlookup.php&#10;发布页修改">
+      <created>1449322514382</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1449322514382</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -306,17 +366,17 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1555387" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16995448" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931036" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931036" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3086207" sideWeight="0.5091047" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32931036" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32931036" sideWeight="0.4969651" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931036" sideWeight="0.4908953" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -342,7 +402,13 @@
     <MESSAGE value="2015/11/28/19:00" />
     <MESSAGE value="2015/11/28/22:33" />
     <MESSAGE value="2015/11/30/22:07" />
-    <option name="LAST_COMMIT_MESSAGE" value="2015/11/30/22:07" />
+    <MESSAGE value="2015/11/30/23:04" />
+    <MESSAGE value="Merge branch 'master' of github.com:a282993047/Software-Engineering&#10;&#10;# Conflicts:&#10;#&#9;newlookup.php&#10;changenewlookup" />
+    <MESSAGE value="Merge branch 'master' of github.com:a282993047/Software-Engineering&#10;&#10;# Conflicts:&#10;#&#9;newlookup.php&#10;" />
+    <MESSAGE value="Merge branch 'master' of github.com:a282993047/Software-Engineering&#10;&#10;# Conflicts:&#10;#&#9;newlookup.php&#10;12/2/22:58" />
+    <MESSAGE value="Merge branch 'master' of github.com:a282993047/Software-Engineering&#10;&#10;# Conflicts:&#10;#&#9;newlookup.php&#10;2015/12/3" />
+    <MESSAGE value="Merge branch 'master' of github.com:a282993047/Software-Engineering&#10;&#10;# Conflicts:&#10;#&#9;newlookup.php&#10;发布页修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of github.com:a282993047/Software-Engineering&#10;&#10;# Conflicts:&#10;#&#9;newlookup.php&#10;发布页修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -352,38 +418,6 @@
     <entry file="file://$PROJECT_DIR$/homepage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/homepage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding>
-            <element signature="e#3297#3452#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homepage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding />
         </state>
@@ -414,7 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -465,7 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -509,7 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -553,7 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -610,7 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,32 +664,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/checkreg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49713194">
-          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/checklg.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.269231">
-          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54110897">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -668,9 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.18214937">
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="e#3297#3452#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,11 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5793499">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="18" />
-          <folding>
-            <marker date="1448463725810" expanded="true" signature="-1:-1" placeholder="select * fro..BOOK1..." />
-            <marker date="1448463725810" expanded="true" signature="-1:-1" placeholder="select * fro..CLOTH1..." />
-            <marker date="1448463725810" expanded="true" signature="-1:-1" placeholder="select * fro..LIFETHING1..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,7 +689,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1472275">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="18" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lookuptable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46462715">
+          <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.89e1ea6e.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -698,25 +710,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="179" column="1" selection-start-line="179" selection-start-column="1" selection-end-line="179" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/fabu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="555" column="26" selection-start-line="555" selection-start-column="26" selection-end-line="555" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lookuptable.php">
+    <entry file="file://$PROJECT_DIR$/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.346154">
-          <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.6118547">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newlookup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="62.96154">
+          <caret line="4" column="80" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="80" />
           <folding>
-            <marker date="1448895614548" expanded="true" signature="431:445" placeholder="select * fro..." />
-            <marker date="1448895614548" expanded="true" signature="431:446" placeholder="select * fro..$..." />
-            <marker date="1448895614548" expanded="true" signature="431:451" placeholder="select * fro..BOOK1..." />
+            <marker date="1449146528860" expanded="true" signature="1649:1669" placeholder="select * fro..BOOK1..." />
+            <marker date="1449146528860" expanded="true" signature="1687:1708" placeholder="select * fro..CLOTH1..." />
+            <marker date="1449146528860" expanded="true" signature="1726:1751" placeholder="select * fro..LIFETHING1..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newlookup1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.807692">
+        <state vertical-scroll-proportion="-23.076923">
           <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
           <folding>
             <marker date="1448895614536" expanded="true" signature="431:478" placeholder="select * fro..BOOK1..." />
@@ -724,25 +757,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newlookup.php">
+    <entry file="file://$PROJECT_DIR$/homepage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-67.03846">
-          <caret line="95" column="97" selection-start-line="95" selection-start-column="97" selection-end-line="95" selection-end-column="97" />
+        <state vertical-scroll-proportion="-11.538462">
+          <caret line="61" column="59" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkreg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="49" />
           <folding>
-            <marker date="1448895736688" expanded="true" signature="1135:1186" placeholder="select * fro..BOOK1..." />
-            <marker date="1448895736688" expanded="true" signature="1370:1390" placeholder="select * fro..BOOK1..." />
-            <marker date="1448895736688" expanded="true" signature="1370:1391" placeholder="select * fro..BOOK1..." />
-            <marker date="1448895736688" expanded="true" signature="1408:1429" placeholder="select * fro..CLOTH1..." />
-            <marker date="1448895736688" expanded="true" signature="1408:1430" placeholder="select * fro..CLOTH1..." />
-            <marker date="1448895736688" expanded="true" signature="1447:1472" placeholder="select * fro..LIFETHING1..." />
+            <marker date="1448460214956" expanded="true" signature="607:669" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homepage.php">
+    <entry file="file://$PROJECT_DIR$/insertfabu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5903614">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.3846154">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fabu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63907284">
+          <caret line="171" column="13" selection-start-line="169" selection-start-column="12" selection-end-line="171" selection-end-column="13" />
           <folding />
         </state>
       </provider>
