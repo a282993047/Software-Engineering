@@ -53,7 +53,7 @@
 		<div class="clearfix">
 			<div id="publish" class="publish-detail">
 				<div class="separate">基本信息</div>
-				<form id="bxForm" action="insert.php" method="post" style class="form">
+				<form id="bxForm" action="insert.php" method="post" style class="form" enctype="multipart/form-data">
 					<div class="fabuform-tab"></div>
 					<div class="fabuform-tab-content">
 						<div class="p-line">
@@ -79,7 +79,7 @@
 									<option value="lifething1">日用品</option>
 									<option value="others">其他</option>
 								</select>
-								<select class="input" name="具体类别">
+								<select class="input" name="selectbox" id="selectbox">
 									<option value>请选择</option>
 								</select>
 							</div>
@@ -110,6 +110,29 @@
 								<input type="text" name="contact" maxlength="30" class="input-5 input">
 							</div>
 						</div>
+						<div class="p-line swfu">
+							<label class="p-label"><span class="required">*</span>上传照片：</label>
+							<div class="publish-detail-item">
+								<input type="hidden" name="images[]">
+								<ul class="postimg clearfix"></ul>
+								<div id="swfupload" class="pull-left">
+									<input id="imgfile" name="imgfile" type="file" accept="image/*" multiple="multiple"
+										   onchange="viewmypic(showimg,this.form.imgfile);">
+								</div>
+								<ul class="postimg clearfix">
+									<li class="postimg-item">
+										<img name="showimg" id="showimg" class="postimg-item-img" style="display:none;"
+											 alt="预览图片"
+											 src="undefined" /><br />
+									</li>
+								</ul>
+							</div>
+							<p class="p-submit 0">
+								<input type="submit" value="免费发布信息" id="fabu-form-submit" class="form-submit button button-green">
+							</p>
+
+
+						</div>
 
 					</div>
 				</form>
@@ -120,6 +143,28 @@
 	<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
 	<script src="./js/jquery.qrcode.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
+	<script>
+		function viewmypic(mypic,imgfile) {//图片预览
+			if (imgfile.value){
+				//mypic.src=imgfile.value;
+				mypic.src="./image/IMG_0934.JPG";
+				mypic.style.display="";
+				mypic.border=1;
+				console.log(imgfile.value);
+			}
+		}
+	</script>
+	<script>//选择框
+		var selectbox=document.getElementById("selectbox");
+		var selectedIndex=selectbox.selectedIndex;
+		var selectedOption=selectbox.options[selectbox.selectedIndex];
+		if(selectedOption.value=="book1"){
+			var newOption=document.createElement("option");
+			newOption.appendChild(document.createTextNode(""))
+		}
+
+
+	</script>
 
 </body>
 </html>

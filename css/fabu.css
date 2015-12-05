@@ -500,3 +500,58 @@ input, textarea, keygen, select, button, isindex, meter, progress {
     -webkit-writing-mode: horizontal-tb;
 }
 
+.pull-left {
+    float: left;
+}
+
+#upload{
+    position: relative;
+    top: 20px;
+    width: 300px;
+    height: 50px;
+}
+
+#publish .p-line.swfu .postimg-item-img {
+    display: block;
+    width: 180px;
+    height: 180px;
+    border: 1px solid #f8f8f8;
+    border-bottom: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+#publish .p-submit {
+    padding: 10px 0 2px 360px;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+#promote-love-modal .button, #publish #fabu-form-submit, #publish .add-tag-modal .button-modal-close, #publish a.btn-primary {
+    border: 1px solid #f46;
+    background-color: #f46;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 1em;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    height: 36px;
+    line-height: 34px;
+    padding: 0 2em;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+.postimg-item{
+    list-style-type: none;
+}
