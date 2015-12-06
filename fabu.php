@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="./bootstrap/css/bootstrap.css" type="text/css">
 	<link rel="stylesheet" href="./css/fabu.css" type="text/css">
 	<title>华师大二手网站发布商品</title>
+
 </head>
 <body >
 	<header>
@@ -28,6 +29,9 @@
 						</ul>
 
 					</li>
+					<li>
+						<a href="logout.php" target="_blank">退出登录</a>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -44,11 +48,10 @@
 	<div class="wrapper">
 		<div class="slogan middle">简单，快速，搞得定！</div>
 		<ul class="flow clearfix sep-big">
-			<li class="flow-item active"><label class="i-badge">1</label>选择类目</li>
+			<li class="flow-item active"><label class="i-badge">1</label>填写信息</li>
 			<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
-			<li class="flow-item"><label class="i-badge">2</label>填写信息</li>
-			<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
-			<li class="flow-item"><label class="i-badge">3</label>完成发布</li>
+			<li class="flow-item"><label class="i-badge">2</label>完成发布</li>
+
 		</ul>
 		<div class="clearfix">
 			<div id="publish" class="publish-detail">
@@ -72,7 +75,7 @@
 								类目：
 							</label>
 							<div class="publish-detail-item">
-								<select class="input input-6" name="类目">
+								<select class="input input-6" id="select" name="类目" onchange="hi();">
 									<option value></option>
 									<option value="book1">二手书</option>
 									<option value="cloth1">二手衣物</option>
@@ -151,20 +154,116 @@
 				mypic.style.display="";
 				mypic.border=1;
 				console.log(imgfile.value);
+
 			}
 		}
 	</script>
-	<script>//选择框
-		var selectbox=document.getElementById("selectbox");
-		var selectedIndex=selectbox.selectedIndex;
-		var selectedOption=selectbox.options[selectbox.selectedIndex];
-		if(selectedOption.value=="book1"){
-			var newOption=document.createElement("option");
-			newOption.appendChild(document.createTextNode(""))
+	<script>
+		function clearSelectbox(selectbox){//清除selectbox 每次只清除第一个
+			//console.log(selectbox.options.length);
+			for(var i= 1,len=selectbox.options.length;i<len;i++){
+				selectbox.remove(i);
+			}
 		}
+		function hi(){//动态添加selectbox
+			var selectbox1=document.getElementById("selectbox");
+			var selectbox=document.getElementById("select");
+			console.log(selectbox1.options.length);
+			for(var i=0;i<=selectbox1.options.length;i++){//每次现将之前的selectbox清楚完
+				clearSelectbox(selectbox1);
+			}
+			//console.log(selectbox.id);
 
+			var selectedIndex=selectbox.selectedIndex;
+			var selectedOption=selectbox.options[selectedIndex];
+			console.log(selectedOption.value);
+			if(selectedOption.value=="book1"){
+				//clearSelectbox(selectbox1);
+				var newOption=document.createElement("option");
+				newOption.appendChild(document.createTextNode("英语"));
+				newOption.setAttribute("value","English");
+				selectbox1.appendChild(newOption);
+				var newOption=document.createElement("option");
+				newOption.appendChild(document.createTextNode("数学"));
+				newOption.setAttribute("value","math");
+				selectbox1.appendChild(newOption);
+				var newOption=document.createElement("option");
+				newOption.appendChild(document.createTextNode("计算机"));
+				newOption.setAttribute("value","computer");
+				selectbox1.appendChild(newOption);
+				var newOption=document.createElement("option");
+				newOption.appendChild(document.createTextNode("金融"));
+				newOption.setAttribute("value","financial");
+				selectbox1.appendChild(newOption);
+				var newOption=document.createElement("option");
+				newOption.appendChild(document.createTextNode("小说"));
+				newOption.setAttribute("value","novel");
+				selectbox1.appendChild(newOption);
+				var newOption=document.createElement("option");
+				newOption.appendChild(document.createTextNode("其他"));
+				newOption.setAttribute("value","others");
+				selectbox1.appendChild(newOption);
+			}
+			if(selectedOption.value=="cloth1") {
+				//clearSelectbox(selectbox1);
+				var newOption=document.createElement("option");
+				newOption.appendChild(document.createTextNode("毛衣"));
+				newOption.setAttribute("value","cloth");
+				selectbox1.appendChild(newOption);
+				var newOption=document.createElement("option");
+				newOption.appendChild(document.createTextNode("裤子"));
+				newOption.setAttribute("value","cloth");
+				selectbox1.appendChild(newOption);
+				var newOption=document.createElement("option");
+				newOption.appendChild(document.createTextNode("外套"));
+				newOption.setAttribute("value","cloth");
+				selectbox1.appendChild(newOption);
+				var newOption=document.createElement("option");
+				newOption.appendChild(document.createTextNode("鞋子"));
+				newOption.setAttribute("value","cloth");
+				selectbox1.appendChild(newOption);
+				var newOption=document.createElement("option");
+				newOption.appendChild(document.createTextNode("包包"));
+				newOption.setAttribute("value","cloth");
+				selectbox1.appendChild(newOption);
+				var newOption=document.createElement("option");
+				newOption.appendChild(document.createTextNode("帽子"));
+				newOption.setAttribute("value","cloth");
+				selectbox1.appendChild(newOption);
+				var newOption=document.createElement("option");
+				newOption.appendChild(document.createTextNode("其他"));
+				newOption.setAttribute("value","others");
+				selectbox1.appendChild(newOption);
+			}
 
+			if(selectedOption.value=="lifething1") {
+				//clearSelectbox(selectbox1);
+				var newOption=document.createElement("option");
+				newOption.appendChild(document.createTextNode("小家电"));
+				newOption.setAttribute("value","cloth");
+				selectbox1.appendChild(newOption);
+				var newOption=document.createElement("option");
+				newOption.appendChild(document.createTextNode("冬天保暖小物"));
+				newOption.setAttribute("value","cloth");
+				selectbox1.appendChild(newOption);
+				var newOption=document.createElement("option");
+				newOption.appendChild(document.createTextNode("杯子"));
+				newOption.setAttribute("value","cloth");
+				selectbox1.appendChild(newOption);
+				var newOption=document.createElement("option");
+				newOption.appendChild(document.createTextNode("碗筷"));
+				newOption.setAttribute("value","cloth");
+				selectbox1.appendChild(newOption);
+				var newOption=document.createElement("option");
+				newOption.appendChild(document.createTextNode("其他"));
+				newOption.setAttribute("value","cloth");
+				selectbox1.appendChild(newOption);
+			}
+
+		}
 	</script>
+	<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+	<script src="./js/bootstrap.js"></script>
 
 </body>
 </html>

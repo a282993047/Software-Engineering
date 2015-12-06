@@ -290,7 +290,7 @@ ul.flow i.icon-arrow-right {
 }
 
 body .ui-page>header>div:first-child+div, body>header>div:first-child+div {
-    background: #fff;
+    background: #ffda44;
 }
 
 body .ui-page>header .location, body>header .location {
@@ -327,6 +327,16 @@ div {
 .clearfix:after, .clearfix:before {
     content: " ";
     display: table;
+}
+
+body>header .newline {
+    margin-top: 10px;
+}
+body>header .newline a {
+    font-size: 14px;
+    padding: 0 15px;
+    color: #bebebe;
+    border-right: 1px solid #dedede;
 }
 
 #publish {
