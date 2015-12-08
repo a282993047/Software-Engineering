@@ -12,7 +12,7 @@ $con = mysql_connect("localhost","root","");
 mysql_query("set names utf8");
 $type=$_GET['y'];
 mysql_select_db("test", $con);
-$sql = "select * from BOOK1 where dept_name = '{$type}'";
+$sql = "select * from BOOK1 where type = '{$type}'";
 $result = mysql_query($sql);
 ?>
 <div class="main">

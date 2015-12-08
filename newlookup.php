@@ -83,13 +83,13 @@ $result2 = mysql_query($sql2);
             ?>
             <li class="listing-cpm-ad search-promote item-pinned seen">
                 <a href="homepage.php" target="_blank" class="media-cap">
-                    <img src="<?php echo $row['photo'] ?>">
+                    <img src="<?php echo $row1['photo'] ?>">
                 </a>
 
                 <div class="media-body">
                     <div class="media-body-title">
-                        <a href="homepage.php" target="_blank" class="ad-title"><?php echo $row['name'] ?></a>
-                        <span class="highlight">￥<?php echo $row['price'] ?></span>
+                        <a href="homepage.php" target="_blank" class="ad-title"><?php echo $row1['name'] ?></a>
+                        <span class="highlight">￥<?php echo $row1['price'] ?></span>
                     </div>
                 </div>
             </li>
@@ -97,13 +97,13 @@ $result2 = mysql_query($sql2);
         while($row2 = mysql_fetch_array($result2)) {?>
         <li class="listing-cpm-ad search-promote item-pinned seen">
             <a href="homepage.php" target="_blank" class="media-cap">
-                <img src="<?php echo $row['photo'] ?>">
+                <img src="<?php echo $row2['photo'] ?>">
             </a>
 
             <div class="media-body">
                 <div class="media-body-title">
-                    <a href="homepage.php" target="_blank" class="ad-title"><?php echo $row['name'] ?></a>
-                    <span class="highlight">￥<?php echo $row['price'] ?></span>
+                    <a href="homepage.php" target="_blank" class="ad-title"><?php echo $row2['name'] ?></a>
+                    <span class="highlight">￥<?php echo $row2['price'] ?></span>
                 </div>
             </div>
         </li>

@@ -115,9 +115,6 @@ body .ui-page>header .toolbar #user-tools>li.dropdown>a, body>header .toolbar #u
 
 }
 
-body .ui-page>header .toolbar a, body>header .toolbar a {
-    padding: 0 5px;
-}
 
 a, a:focus, img {
     outline: 0;
@@ -564,4 +561,9 @@ p {
 }
 .postimg-item{
     list-style-type: none;
+}
+
+.username1 > li > a{/*用户名*/
+
+
 }

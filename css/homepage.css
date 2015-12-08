@@ -33,9 +33,21 @@ body .ui-page>footer, body .ui-page>header, body>footer, body>header {
     font-size: 14px;
 }
 
-.navbar-nav{
+/*.navbar-nav{
     padding: 10px 500px 15px;
+}*/
+
+body .ui-page>header .toolbar #user-tools>li.dropdown>a, body>header .toolbar #user-tools>li.dropdown>a {
+    padding-bottom: 1em;
 }
+/*body .ui-page>header .toolbar a, body>header .toolbar a {
+    padding: 0 1px;
+}*/
+
+.username{
+    margin-top: 1px;
+}
+
 
 body .ui-page>header>div:first-child, body>header>div:first-child {
     background: #f0f0f0;
@@ -117,10 +129,10 @@ body .ui-page>header .toolbar #user-tools>li.dropdown>a, body>header .toolbar #u
     color: #666;
 
 }
-
+/*
 body .ui-page>header .toolbar a, body>header .toolbar a {
-    padding: 0 5px;
-}
+    padding: 0 1px;
+}*/
 
 a, a:focus, img {
     outline: 0;

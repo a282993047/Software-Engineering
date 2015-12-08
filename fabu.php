@@ -11,7 +11,7 @@
 	<header>
 		<div>
 			<div class="toolbar">
-				<ul id="user-tools" class="navbar-nav">
+				<ul id="user-tools" class="username1">
 					<li class="dropdown topbar-user-info">
 						<a href=""  target="_blank" class="username">
 							<img src="./image/touxiang.png" width="36">
@@ -56,7 +56,8 @@
 		<div class="clearfix">
 			<div id="publish" class="publish-detail">
 				<div class="separate">基本信息</div>
-				<form id="bxForm" action="insert.php" method="post" style class="form" enctype="multipart/form-data">
+				<form id="bxForm" action="insertfabu.php" method="post" style class="form"
+					  enctype="multipart/form-data">
 					<div class="fabuform-tab"></div>
 					<div class="fabuform-tab-content">
 						<div class="p-line">
@@ -75,7 +76,7 @@
 								类目：
 							</label>
 							<div class="publish-detail-item">
-								<select class="input input-6" id="select" name="类目" onchange="hi();">
+								<select class="input input-6" id="select" name="table" onchange="hi();">
 									<option value></option>
 									<option value="book1">二手书</option>
 									<option value="cloth1">二手衣物</option>
@@ -92,7 +93,7 @@
 								<span class="required">*</span>
 								价格：
 							</label>
-							<div class="publish-detail-item"><input type="text" name="价格" maxlength="6" class="input-6 input">
+							<div class="publish-detail-item"><input type="text" name="price" maxlength="6" class="input-6 input">
 								<span class="fabuform-unit">元</span>
 							</div>
 						</div>
@@ -119,8 +120,8 @@
 								<input type="hidden" name="images[]">
 								<ul class="postimg clearfix"></ul>
 								<div id="swfupload" class="pull-left">
-									<input id="imgfile" name="imgfile" type="file" accept="image/*" multiple="multiple"
-										   onchange="viewmypic(showimg,this.form.imgfile);">
+									<input id="imgfile" name="photo" type="file" accept="image/*" multiple="multiple"
+										   onchange="viewmypic(showimg,this.form.photo);">
 								</div>
 								<ul class="postimg clearfix">
 									<li class="postimg-item">
@@ -131,7 +132,8 @@
 								</ul>
 							</div>
 							<p class="p-submit 0">
-								<input type="submit" value="免费发布信息" id="fabu-form-submit" class="form-submit button button-green">
+								<input type="submit" name="submit" value="免费发布信息" id="fabu-form-submit" class="form-submit
+								button button-green">
 							</p>
 
 
@@ -147,13 +149,21 @@
 	<script src="./js/jquery.qrcode.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
 	<script>
+		function getFileName(o){//提取图片名字
+			var pos=o.lastIndexOf("\\");
+			return o.substring(pos+1);
+		}
+
 		function viewmypic(mypic,imgfile) {//图片预览
 			if (imgfile.value){
 				//mypic.src=imgfile.value;
-				mypic.src="./image/IMG_0934.JPG";
+				var src1=getFileName(imgfile.value);
+				src1="./image/"+src1;
+				//mypic.src="./image/
+				mypic.src=src1;
 				mypic.style.display="";
 				mypic.border=1;
-				console.log(imgfile.value);
+				console.log(src1);
 
 			}
 		}

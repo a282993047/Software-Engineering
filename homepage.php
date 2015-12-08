@@ -11,7 +11,8 @@
     <header>
         <div>
             <div class="toolbar">
-                <ul id="user-tools" class="navbar-nav">
+                <ul id="user-tools" class="">
+                    <?php if(isset($_COOKIE["USER"])){?>
                     <li class="dropdown topbar-user-info">
                         <a href=""  target="_blank" class="username">
                             <img src="./image/touxiang.png" width="36">
@@ -27,11 +28,16 @@
                                 <a href="logout.php" id="logout">退出登录</a>
                             </li>
                         </ul>
-
                     </li>
                     <li>
                         <a href="logout.php" target="_blank">退出登录</a>
+                    </li><?PHP } else{?>
+                    <li>
+                        <a href="login.html">登录</a>
                     </li>
+                    <li>
+                        <a href="register.html">注册</a>
+                    </li><?php } ?>
                 </ul>
             </div>
         </div>
