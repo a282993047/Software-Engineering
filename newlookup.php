@@ -3,34 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="./css/lookup1.css" type="text/css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/newlookup1.css" type="text/css">
     <title>华师大二手网站</title>
 </head>
 <body>
+<header>
+    <div>
+        <div class="toolbar">
+            <ul id="user-tools" class="username1">
+                <li class="dropdown topbar-user-info">
+                    <a href=""  target="_blank" class="username">
+                        <img src="./image/touxiang.png" width="36">
+                        <?php
+                        echo $_COOKIE["USER"];
+                        ?>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="" target="_blank">我发布的信息</a>
+                        </li>
+                        <li>
+                            <a href="logout.php" id="logout">退出登录</a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li>
+                    <i class="glyphicon glyphicon-star" aria-hidden="true"></i>
+                    <a href="">收藏夹</a>
+                </li>
+                <li>
+                    <a href="" >联系客服</a>
+                </li>
+                <li>
+                    <a href="logout.php" target="_blank">退出登录</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <div class="location">
+            <div class="idle-header">
+                <div class="idle-nav">
+                    <div class="idle-menu">
+                        <ul>
+                            <li class="m-home">
+                                <a href="homepage.php">首页</a>
+                            </li>
+                            <li class="m-guang">
+                                <a href="">逛逛逛</a>
+                            </li>
+                            <li class="m-auction">
+                                <a href="">降降降</a>
+                            </li>
+                            <li class="fabu">
+                                <a href="fabu.php">发布闲置</a>
+                            </li>
+                            <li class="my-idle-li">
+                                <a class="my-idle-link" href="">我的闲置
+                                    <i class="glyphicon glyphicon-chevron-down" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="idle-search">
+                    <form method="post" action="newlookup.php" name="search" target="_top">
+                        <input class="input-search" name="query" type="text" value placeholder="搜闲置" autocomplete="off">
+                        <button class="btn-search" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
 <?php
-/*function makeSql($key1='',$key2='',$key3='',$key4=''){//多关键字查询
-    $sql    =    'where name ';
-    if ($key1!=''){
-        $title1    =    "like '%$key1%'";
-        $sql.=$title1;
-    }
-    if ($key2!=''){
-        $title2    =    "like '%$key2%'";
-        $sql.='or name '.$title2;
-    }
-    if ($key3!=''){
-        $title3    =    "like '%$key3%'";
-        $sql.='or name '.$title3;
-    }
-    if ($key4!=''){
-        $title4    =    "like '%$key4%'";
-        $sql.='or name '.$title4;
-    }
-    if ($sql=='where name '){
-        return '';
-    }
-    return $sql;
-}*/
+
 function makeSql($names){//多关键字查询
     $sql = 'where name ';
     if(!$names || empty($names)) return '';
@@ -67,12 +119,13 @@ $result2 = mysql_query($sql2);
         while($row = mysql_fetch_array($result)){
             ?>
             <li class="listing-cpm-ad search-promote item-pinned seen">
-                <a href="homepage.php" target="_blank" class="media-cap">
+                <a href="shangpinye.php?id=<?php echo $row['id']?>&table=book1" target="_blank" class="media-cap">
                     <img src="<?php echo $row['photo'] ?>">
                 </a>
                 <div class="media-body">
                     <div class="media-body-title">
-                        <a href="homepage.php" target="_blank" class="ad-title"><?php echo $row['name'] ?></a>
+                        <a href="shangpinye.php?id=<?php echo $row['id']?>&table=book1" target="_blank"
+                           class="ad-title"><?php echo $row['name'] ?></a>
                         <span class="highlight">￥<?php echo $row['price'] ?></span>
                     </div>
                 </div>
@@ -82,13 +135,14 @@ $result2 = mysql_query($sql2);
         while($row1 = mysql_fetch_array($result1)) {
             ?>
             <li class="listing-cpm-ad search-promote item-pinned seen">
-                <a href="homepage.php" target="_blank" class="media-cap">
+                <a href="shangpinye.php?id=<?php echo $row1['id']?>&table=cloth1" target="_blank" class="media-cap">
                     <img src="<?php echo $row1['photo'] ?>">
                 </a>
 
                 <div class="media-body">
                     <div class="media-body-title">
-                        <a href="homepage.php" target="_blank" class="ad-title"><?php echo $row1['name'] ?></a>
+                        <a href="shangpinye.php?id=<?php echo $row1['id']?>&table=cloth1" target="_blank"
+                           class="ad-title"><?php echo $row1['name'] ?></a>
                         <span class="highlight">￥<?php echo $row1['price'] ?></span>
                     </div>
                 </div>
@@ -96,13 +150,14 @@ $result2 = mysql_query($sql2);
         <?php }
         while($row2 = mysql_fetch_array($result2)) {?>
         <li class="listing-cpm-ad search-promote item-pinned seen">
-            <a href="homepage.php" target="_blank" class="media-cap">
+            <a href="shangpinye.php?id=<?php echo $row2['id']?>&table=lifething1" target="_blank" class="media-cap">
                 <img src="<?php echo $row2['photo'] ?>">
             </a>
 
             <div class="media-body">
                 <div class="media-body-title">
-                    <a href="homepage.php" target="_blank" class="ad-title"><?php echo $row2['name'] ?></a>
+                    <a href="shangpinye.php?id=<?php echo $row2['id']?>&table=lifething1" target="_blank"
+                       class="ad-title"><?php echo $row2['name'] ?></a>
                     <span class="highlight">￥<?php echo $row2['price'] ?></span>
                 </div>
             </div>
@@ -113,7 +168,8 @@ $result2 = mysql_query($sql2);
     </ul>
 
 </div>
-<script src="./js/bootstrap.js"></script>
-<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+
 </body>
 </html>

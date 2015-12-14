@@ -30,6 +30,13 @@
                         </ul>
                     </li>
                     <li>
+                        <i class="glyphicon glyphicon-star" aria-hidden="true"></i>
+                        <a href="">收藏夹</a>
+                    </li>
+                    <li>
+                        <a href="" >联系客服</a>
+                    </li>
+                    <li>
                         <a href="logout.php" target="_blank">退出登录</a>
                     </li><?PHP } else{?>
                     <li>

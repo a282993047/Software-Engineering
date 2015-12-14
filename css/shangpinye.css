@@ -1,0 +1,248 @@
+body {
+    position: relative;
+}
+
+#page {
+    width: 100%;
+}
+
+#content, #footer, #header, #page {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    display: block;
+}
+
+#idle-detail {
+    color: #333;
+    margin-top: 20px;
+    border-top: 2px solid #333;
+}
+
+.layout:after, .main-wrap:after, .col-sub:after, .col-extra:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.col-main {
+    float: left;
+    width: 100%;
+    min-height: 1px;
+}
+
+.grid-s730m0 .main-wrap {
+    margin-left: 750px;
+}
+
+.w1190 .property {
+    width: 440px;
+}
+
+.property {
+    width: 240px;
+    margin-top: 18px;
+    overflow: hidden;
+}
+
+.w1190 .property .title {
+    font-size: 22px;
+    line-height: 31px;
+}
+
+.property .title {
+    font: 700 16px/24px "Microsoft YaHei";
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.price-info {
+    padding: 12px 0 5px;
+    border-bottom: 1px solid #eee;
+}
+
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.idle-info, .price-info .price-block {
+    font-size: 14px;
+}
+
+.price-info li {
+    line-height: 24px;
+    padding: 0 0 8px 80px;
+    position: relative;
+    white-space: nowrap;
+}
+
+.price-block {
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+.property span.para {
+    float: left;
+    width: 80px;
+    font: 14px/1.5 tahoma,arial,simsun;
+    margin: 0 0 0 -80px;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.price-info .big b, .price-info .big em {
+    font-size: 24px;
+}
+
+.price-block .big b, .price-block .big em {
+    font-size: 18px;
+}
+
+.price-block b {
+    font-weight: 400;
+    font-family: Arial,Verdana;
+    padding-right: 2px;
+    color: #999;
+}
+
+.price-info li {
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.price-info .big b, .price-info .big em {
+    font-size: 24px;
+}
+
+.price-block .price em {
+    font-weight: 700;
+    font-size: 24px;
+    color: #f40;
+}
+
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+
+.idle-info {
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.idle-info li {
+    padding: 5px 0 5px 80px;
+    white-space: nowrap;
+    position: relative;
+    zoom: 1;
+}
+
+.property span.para {
+    float: left;
+    width: 80px;
+    font: 14px/1.5 tahoma,arial,simsun;
+    margin: 0 0 0 -80px;
+}
+
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+
+.idle-info, .price-info .price-block {
+    font-size: 14px;
+}
+
+.idle-info li {
+    white-space: nowrap;
+    zoom: 1;
+}
+
+.idle-info li.contact {
+    white-space: normal;
+}
+
+.idle-info li {
+    padding: 5px 0 30px 80px;
+    white-space: nowrap;
+    position: relative;
+    zoom: 1;
+}
+
+.idle-info .contact-phone {
+
+
+    display: inline-block;
+    width: 60px;
+}
+
+.grid-s730m0 .col-sub {
+    width: 730px;
+    margin-left: -100%;
+}
+
+.col-sub, .col-extra {
+    float: left;
+}
+
+.slider {
+    background: #fff;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    margin-top: 18px;
+    width: 730px;
+    height: 580px;
+}
+
+.slider .album {
+    width: 730px;
+    height: 490px;
+    background: url(//img.alicdn.com/tps/i4/T167P5Xo4eXXa1YfHb-24-24.png) repeat;
+}
+
+.slider .album li {
+    height: 490px;
+    width: 730px;
+    position: relative;
+}
+
+.sh-pic, .sh-pic30, .sh-pic40, .sh-pic50, .sh-pic60, .sh-pic70, .sh-pic80, .sh-pic90, .sh-pic110x90, .sh-pic120, .sh-pic135, .sh-pic160, .sh-pic220, .sh-pic310 {
+    display: table;
+    text-align: center;
+    table-layout: fixed;
+}
+
+.slider .album li img {
+    max-width: 730px;
+    max-height: 490px;
+}
+
+.slider .album li a {
+    width: 730px;
+    height: 490px;
+}
+
+.content{
+    background-color: #ffffff;
+}
+
+

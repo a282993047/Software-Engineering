@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" class="js">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="./css/newlookup1.css" type="text/css">
+    <link rel="stylesheet" href="./css/shangpinye.css" type="text/css">
     <title>华师大二手网站</title>
 </head>
-<body class="category-root view-item">
+<body class="w1190">
 <header>
     <div>
         <div class="toolbar">
@@ -68,7 +70,7 @@
                     </div>
                 </div>
                 <div class="idle-search">
-                    <form method="post" action="newlookup.php" name="search" target="_blank">
+                    <form method="post" action="newlookup.php" name="search" target="_top">
                         <input class="input-search" name="query" type="text" value placeholder="搜闲置" autocomplete="off">
                         <button class="btn-search" type="submit">
                             <i class="glyphicon glyphicon-search"></i>
@@ -81,35 +83,71 @@
     </div>
 </header>
 <?php
+/**
+ * Created by PhpStorm.
+ * User: a282993047
+ * Date: 2015/12/14
+ * Time: 17:37
+ */
 $con = mysql_connect("localhost","root","");
 mysql_query("set names utf8");
-$type=$_GET['y'];
 mysql_select_db("test", $con);
-$sql = "select * from BOOK1 where type = '{$type}'";
+$id=$_GET['id'];
+$table=$_GET['table'];
+$sql="select * from $table where id = $id";
 $result = mysql_query($sql);
+$row = mysql_fetch_array($result);
 ?>
-<div class="main">
-    <ul style="border-top: 1px dotted #eee;" class="list-ad-items">
-        <?php
-        while($row = mysql_fetch_array($result)){
-        ?>
-        <li class="listing-cpm-ad search-promote item-pinned seen">
-            <a href="homepage.php" target="_blank" class="media-cap">
-                <img src="<?php echo $row['photo'] ?>">
-            </a>
-            <div class="media-body">
-                <div class="media-body-title">
-                    <a href="homepage.php" target="_blank" class="name"><?php echo $row['name']?></a>
-                    <a href="homepage.php" target="_blank" class="ad-title"><?php echo $row['message'] ?></a>
-                    <span class="highlight">￥<?php echo $row['price'] ?></span>
+    <div class="content">
+        <div id="page">
+            <div class="idle-detail">
+                <div class="layout grid-s730m0">
+                    <div class="col-main">
+                        <div class="main-wrap">
+                            <div class="property" id="J_Property">
+                                <h1 class="title"><?php echo $row['name'] ?></h1>
+                                <ul class="price-info">
+                                    <li class="price-block">
+                                        <span class="para">转&nbsp;&nbsp;卖&nbsp;&nbsp;价：</span>
+                                        <span class="price big">
+                                            <b>¥</b>
+                                            <em><?php echo $row['price'] ?></em>
+                                        </span>
+                                    </li>
+                                </ul>
+                                <ul class="idle-info" >
+                                    <li>
+                                        <span class="para">成　　色： &nbsp全新</span>
+
+                                    </li>
+                                    <li class="contact">
+                                        <span class="para">联系方式：</span>
+                                        <span class="contact-phone">
+                                            <span class="contact-phone-elli"><?php echo $row['phone'] ?></span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sub">
+                        <div id="J_Slider" class="slider">
+                            <ul class="album" style="">
+                                <li class="item sh-pic ks-switchable-panel-internal197" style="display: block;
+                                float:left;">
+                                    <a href="homepage.php" >
+                                        <img src="<?php echo $row['photo']?>" class="photo">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </li>
-        <?php }
-        mysql_close($con);
-        ?>
-    </ul>
-</div>
+        </div>
+    </div>
 
+<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+<script src="./js/bootstrap.js"></script>
 </body>
 </html>
