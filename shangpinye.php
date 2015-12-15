@@ -126,7 +126,16 @@ $row = mysql_fetch_array($result);
                                             <span class="contact-phone-elli"><?php echo $row['phone'] ?></span>
                                         </span>
                                     </li>
+                                    <li class="trade-terms" id="J_TradeWrap">
+                                        <span class="para">交易方式</span>
+                                        <a href="#" class="selected">
+                                            <span class="J_Term term">在线交易</span>
+                                        </a>
+                                    </li>
                                 </ul>
+                                <div class="buy-now" data-spm="2007.1000338.4">
+                                    <a id="J_BuyNow" data-url="" class="btn active" href="homepage.php" role="button">立即购买</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -140,6 +149,33 @@ $row = mysql_fetch_array($result);
                                     </a>
                                 </li>
                             </ul>
+                        </div>
+                        <div id="J_IdleDesc" class="idle-desc">
+                            <div class="hidden" id="J_TabbarPlaceHolder" style="height: 44px;width:1px;padding: 0;"></div>
+                            <div id="J_ItemTab" class="">
+                                <div class="list-tabs" data-spm="2007.1000338.8">
+                                    <ul>
+                                        <li class="J_TabTrigger tabnavfirst actived ks-switchable-trigger-internal214"><a href="#desc-intro">宝贝介绍</a></li>
+
+                                        <li class="J_TabTrigger ks-switchable-trigger-internal214" id="J_MSCount" data-key="101_525014745953" data-url="//comment.jianghu.taobao.com/json/commentCount.htm?keys=101_525014745953">
+                                            <a href="#message" id="messages" name="messages">留言（<span>1</span>）</a>
+                                        </li>
+                                        <li class="J_TabTrigger ks-switchable-trigger-internal214"><a href="#guarantee">安全保障</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="desc-intro" class="J_Panel desc-intro ks-switchable-panel-internal1215"
+                                 style="display:
+                            block;">
+                                <h2><b>宝贝介绍</b></h2>
+                                <div class="describe" id="J_DescContent">
+                                    <?php echo $row['message']?>
+                                </div>
+                            </div>
+                            <div class="message" class="J_Panel message ks-switchable-panel-internal1215"
+                                 style="display: block;">
+                                <h2><b>留言</b></h2>
+                            </div>
                         </div>
                     </div>
                 </div>

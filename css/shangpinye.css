@@ -45,6 +45,7 @@ div {
 .property {
     width: 240px;
     margin-top: 18px;
+    margin-left: 60px;
     overflow: hidden;
 }
 
@@ -245,4 +246,129 @@ address, cite, dfn, em, var {
     background-color: #ffffff;
 }
 
+.buy-now a.btn {
+    display: block;
+    height: 45px;
+    margin: 0 0 10px;
+    overflow: hidden;
+    background-color: #FF8800;
+    width: 202px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Hiragino Sans GB', 'Microsoft YaHei', '黑体', sans-serif;
+    letter-spacing: 2px;
+}
 
+.idle-info .trade-terms a:hover, .idle-info .trade-terms .selected, .idle-info .trade-terms a:hover span, .idle-info .trade-terms .selected span {
+    border-color: #FD6500;
+    text-decoration: none;
+}
+
+.idle-info .trade-terms a {
+    float: left;
+    border: 1px solid #fff;
+    height: 30px;
+    margin: 0 10px 5px 0;
+    text-align: center;
+    font-size: 12px;
+    outline: 0 none;
+    position: relative;
+}
+
+.idle-info .trade-terms .term {
+    border: 1px solid #dfdfdf;
+    color: #000;
+    line-height: 28px;
+    padding: 0 5px;
+    display: block;
+}
+
+.idle-desc {
+    margin-top: 30px;
+    width: 730px;
+}
+
+.idle-desc .list-tabs {
+    border-bottom: 5px solid #ffda44;
+    line-height: 39px;
+    height: 39px;
+    background: #fff;
+    border-radius: 0;
+}
+
+.idle-desc .list-tabs {
+    border: 0;
+}
+
+.idle-desc .list-tabs li.actived {
+    border-color: #ffda44;
+}
+
+.idle-desc .list-tabs .tabnavfirst {
+    border-left-width: 1px;
+}
+
+.idle-desc .list-tabs li {
+    float: left;
+    _display: inline;
+}
+
+.idle-desc .list-tabs li.actived a {
+    background-color: #ffda44;
+}
+
+.idle-desc .list-tabs li.actived a {
+    color: #fff;
+}
+
+.idle-desc .list-tabs li a {
+    height: 39px;
+    line-height: 39px;
+}
+
+.idle-desc .list-tabs li a {
+    float: left;
+    outline: 0 none;
+    overflow: hidden;
+    padding: 0 25px;
+    text-decoration: none;
+    color: #333;
+    font: 700 16px/39px "Microsoft YaHei";
+}
+.col-sub{
+    padding-left: 50px;
+
+}
+
+.idle-desc .desc-mod {
+    margin-bottom: 40px;
+
+}
+
+.idle-desc h2 {
+    font: 700 16px/20px "Microsoft YaHei";
+    background-position: 0 -119px;
+    margin-bottom: 15px;
+}
+
+.idle-desc h2 b {
+    background: #fff;
+    padding-right: 5px;
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+.desc-intro .describe {
+    font: 14px/26px tahoma,arial,simsun;
+}
+
+element.style {
+    display: block;
+}
+
+.idle-desc .desc-mod:before, .idle-desc .desc-mod:after {
+    content: "";
+    display: table;
+}

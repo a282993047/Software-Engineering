@@ -94,13 +94,16 @@ $result = mysql_query($sql);
         while($row = mysql_fetch_array($result)){
             ?>
             <li class="listing-cpm-ad search-promote item-pinned seen">
-                <a href="shangpinye.php?id=<?php $row['id'] ?>" target="_blank" class="media-cap">
+                <a href="shangpinye.php?id=<?php echo $row['id'] ?>&table=<?php echo $type ?>" target="_blank"
+                   class="media-cap">
                     <img src="<?php echo $row['photo'] ?>">
                 </a>
                 <div class="media-body">
                     <div class="media-body-title">
-                        <a href="homepage.php" target="_blank" class="name"><?php echo $row['name']?></a>
-                        <a href="homepage.php" target="_blank" class="ad-title"><?php echo $row['message'] ?></a>
+                        <a href="shangpinye.php?id=<?php echo $row['id'] ?>&table=<?php echo $type ?>" target="_blank"
+                           class="name"><?php echo $row['name']?></a>
+                        <a href="shangpinye.php?id=<?php echo $row['id'] ?>&table=<?php echo $type ?>" target="_blank"
+                           class="ad-title"><?php echo $row['message'] ?></a>
                         <span class="highlight">￥<?php echo $row['price'] ?></span>
                     </div>
                 </div>
