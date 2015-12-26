@@ -34,8 +34,13 @@ else{
         if(move_uploaded_file($_FILES['photo']['tmp_name'], $filename)){
             $sql="INSERT INTO $table (name,type,price,phone,message,name1,photo) VALUES ('$name','$type','$price',
 '$phone','$message','$name1','$filename')";
-            mysql_query($sql,$con);
-            $row=mysql_affected_rows($con);
+            $result=mysql_query($sql,$con);
+            $row = mysql_affected_rows($con);
+            $id=mysql_insert_id();
+            $sql1="INSERT INTO SOLD (name,table1,id) VALUES ('$name1','$table',$id)";
+            $result1=mysql_query($sql1,$con);
+            $row1 = mysql_affected_rows($con);
+            echo $row1;
             if($row>0)
 
             {

@@ -30,6 +30,12 @@
                         </ul>
                     </li>
                     <li>
+                         <a href="dingdanbuy.php">我的订单（买）</a>
+                    </li>
+                        <li>
+                            <a href="">我的订单（卖）</a>
+                        </li>
+                    <li>
                         <i class="glyphicon glyphicon-star" aria-hidden="true"></i>
                         <a href="">收藏夹</a>
                     </li>

@@ -1,0 +1,294 @@
+.confirm-order {
+    width: 100%;
+    min-height: 600px;
+}
+
+.buy-content {
+    width: 950px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.stepbar {
+    overflow: hidden;
+}
+
+.buy-logo {
+    padding-top: 26px;
+    padding-bottom: 12px;
+    display: inline-block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.buy-logo a {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 300px;
+    height: 35px;
+    font-size: 35px;
+    color: #ffda44;
+}
+
+a {
+    color: #36c;
+    text-decoration: none;
+}
+
+.buy-logo a i {
+    position: absolute;
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    top: 0;
+    left: 0;
+
+}
+
+.stepbar .tb-stepbar {
+    position: absolute;
+
+    right: 400px;
+    top: 60px;
+    margin: 0 auto;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.stepbar .tb-stepbar li.stepbar-first {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.stepbar .tb-stepbar li.stepbar-current {
+    background-color: #F60;
+    color: #fff;
+}
+
+.stepbar .tb-stepbar li.step-4 {
+    width: 188px;
+}
+
+.stepbar .tb-stepbar li {
+    width: 158px;
+    height: 23px;
+    font-size: 14px;
+    position: relative;
+    float: left;
+    background: #e4e4e4 url(//img.alicdn.com/tps/i2/TB1kJUdGFXXXXcyaXXX08VS7pXX-176-1320.png) no-repeat 100% -1040px;
+    color: #404040;
+    font-weight: 700;
+    box-sizing: border-box;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.stepbar .tb-stepbar li span {
+    display: block;
+    height: 23px;
+    line-height: 23px;
+}
+
+.stepbar .tb-stepbar li.stepbar-current {
+    color: #fff;
+}
+
+.stepbar .tb-stepbar li {
+    font-size: 14px;
+    color: #404040;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.address {
+    margin-bottom: 40px;
+    margin-top: 23px;
+}
+
+.address h3 {
+    border-bottom: 2px solid #f1f1f1;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.address .manage-address {
+    float: right;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+a {
+    color: #36c;
+    text-decoration: none;
+}
+
+.address .address-list li.selected {
+    line-height: 32px;
+}
+
+.address .address-list li {
+    padding-left: 92px;
+    line-height: 25px;
+}
+
+.address li.selected {
+    margin-bottom: 7px;
+    margin-top: 5px;
+    -webkit-box-shadow: 5px 5px 0 #f3f3f3;
+    -moz-box-shadow: 5px 5px 0 #f3f3f3;
+    box-shadow: 5px 5px 0 #f3f3f3;
+    line-height: 32px;
+}
+
+.address li.selected {
+    background-color: #fff0e8;
+    border: 1px solid #f50;
+}
+
+.buy-footer {
+    width: 950px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.order-go {
+    clear: both;
+    text-align: right;
+    position: relative;
+}
+
+.order-go .address-confirm {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    float: right;
+    z-index: 100;
+    padding: 3px;
+    border: 1px solid #f50;
+    font-family: tahoma;
+    font-size: 12px;
+    display: inline-block;
+    right: 0;
+    background-color: #fff0e8;
+}
+
+.order-go .address-confirm .box {
+    background: #fff;
+    padding: 10px 15px 10px 10px;
+    font-size: 12px;
+    margin-bottom: 0;
+    position: static;
+    padding: 1px 10px 10px 20px;
+    line-height: 20px;
+    color: #404040;
+    min-width: 230px;
+}
+
+.address-confirm {
+    font-family: tahoma;
+    font-size: 12px;
+}
+
+.realPay {
+    line-height: 16px;
+    margin: 0 0 15px;
+    position: relative;
+}
+
+.realPay .t {
+    font-weight: 700;
+}
+
+.g_price {
+    font-family: arial;
+}
+
+.realPay .g_price span {
+    font-size: 26px;
+}
+
+.g_price span {
+    font-size: 18px;
+    margin-right: 4px;
+    font-family: arial;
+}
+
+.g_price span {
+    margin-right: 3px;
+    color: #999;
+}
+
+.price .style-large-bold-red {
+    color: #ff4200;
+    font: 700 26px tahoma;
+}
+
+.order-go .address {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.order-go .buy-footer-address .buy-line-title {
+    color: #404040;
+    font-weight: 700;
+}
+
+.order-go .address span {
+    word-break: break-all;
+}
+
+.submitOrder {
+    position: relative;
+}
+
+.submitOrder .go-btn-wrap {
+    position: absolute;
+    height: 36px;
+    position: absolute;
+    right: -4px;
+    top: 4px;
+}
+
+.submitOrder .btn-go {
+    display: block;
+    padding: 0 26px;
+    height: 36px;
+    font: 400 18px/36px arial;
+    font-size: 18px;
+    font-family: '\65b9\6b63\6b63\9ed1\7b80\4f53','\5fae\8f6f\96c5\9ed1','\9ed1\4f53';
+    background-color: #f50;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    outline: 0;
+}

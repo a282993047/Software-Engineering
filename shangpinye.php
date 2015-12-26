@@ -134,7 +134,9 @@ $row = mysql_fetch_array($result);
                                     </li>
                                 </ul>
                                 <div class="buy-now" data-spm="2007.1000338.4">
-                                    <a id="J_BuyNow" data-url="" class="btn active" href="homepage.php" role="button">立即购买</a>
+                                    <a id="J_BuyNow" data-url="" class="btn active" href="buy.php?id=<?php echo
+                                    $id; ?>&table=<?php echo $table?>"
+                                       role="button">立即购买</a>
                                 </div>
                             </div>
                         </div>
@@ -175,6 +177,29 @@ $row = mysql_fetch_array($result);
                             <div class="message" class="J_Panel message ks-switchable-panel-internal1215"
                                  style="display: block;">
                                 <h2><b>留言</b></h2>
+                                <div id="J_Message" data-targetkey="525469642361" data-recuserid="2756424656" data-title="诺基亚1520国行联通版"><div class="cmt-edit-wrap">
+                                        <div class="cmt-edit">
+                                            <div class="cmt-edit-top clearfix">
+                                                <div class="cmt-user">
+                                                    <img src="//wwc.alicdn.com/avatar/getAvatar.do?userId=0&amp;width=60&amp;height=60&amp;type=sns" alt="">
+                                                </div>
+                                                <div class="cmt-add">
+                                                    <textarea id="message1" placeholder="我也插句话..."></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="cmt-edit-btm clearfix">
+                                                 <span class="cmt-send-el">
+                                                     <em class="cmt-send-textnum">0/140</em>
+                                                     <button id="buttoncom" class="cmt-send-btn">评论</button>
+                                                 </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cmt-list-wrap"><div class="cmt-list">
+
+                                        </div>
+                                        <div class="cmt-pager" id="cmt-pager-container"><span class="pagination-start"><span>上一页</span></span><span class="pagination-curr">1</span><span class="pagination-end"><span>下一页</span></span></div></div></div>
+
                             </div>
                         </div>
                     </div>
@@ -182,7 +207,10 @@ $row = mysql_fetch_array($result);
             </div>
         </div>
     </div>
+<script>
+    var text=$("#message1").val();
 
+</script>
 <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
 <script src="./js/bootstrap.js"></script>
 </body>

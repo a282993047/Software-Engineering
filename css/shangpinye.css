@@ -364,11 +364,120 @@ strong, b {
     font: 14px/26px tahoma,arial,simsun;
 }
 
-element.style {
-    display: block;
-}
 
 .idle-desc .desc-mod:before, .idle-desc .desc-mod:after {
     content: "";
     display: table;
+}
+/*商品留言板*/
+
+.cmt-edit {
+    background: #f5f5f5;
+}
+
+.cmt-edit-top {
+    padding: 10px 10px 2px;
+}
+
+.cmt-user {
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+
+.cmt-user img {
+    display: block;
+    max-width: 100%;
+}
+
+.cmt-add {
+    float: left;
+    margin: 0 0 5px 10px;
+    width: 630px;
+    height: 50px;
+    padding: 4px;
+    border: 1px solid #ababab;
+    background: #fff;
+}
+
+.cmt-add textarea {
+    border: 0;
+    border-width: 0;
+    overflow: auto;
+    word-wrap: break-word;
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+    outline: 0;
+}
+
+body, button, input, select, textarea {
+    font: 12px/1.5 tahoma,arial,\5b8b\4f53;
+}
+
+.cmt-edit-btm {
+    padding: 0 10px 10px;
+}
+
+.cmt-send-el {
+    float: right;
+    color: #747474;
+}
+
+.cmt-send-textnum {
+    padding-right: 5px;
+    font-size: 12px;
+}
+
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+
+.cmt-send-btn {
+    display: inline-block;
+    width: 43px;
+    height: 24px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #ababab;
+    background: #ccc;
+    background: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#e5e5e5));
+}
+
+.cmt-pager {
+    padding: 30px 0;
+    text-align: right;
+}
+
+.cmt-pager .pagination-start, .cmt-pager .pagination-end {
+    background-color: #eee;
+    color: #ddd;
+}
+
+.cmt-pager .pagination-start, .cmt-pager .pagination-prev, .cmt-pager .pagination-next, .cmt-pager .pagination-end, .cmt-pager .pagination-spec, .cmt-pager .pagination-curr {
+    font-size: 12px;
+    line-height: 23px;
+    padding: 5px 10px;
+    height: 23px;
+    border: 0;
+    background-color: #D7F0D1;
+    color: #ffda44;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.cmt-pager .pagination-curr {
+    background-color: #ffda44;
+    color: #FFF;
+}
+
+.cmt-pager .pagination-start, .cmt-pager .pagination-end {
+    background-color: #eee;
+    color: #ddd;
 }
