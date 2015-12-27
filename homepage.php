@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php require 'recommand.php'; ?><!DOCTYPE html>
 <html lang="en" class="js">
 <head>
     <meta charset="UTF-8">
@@ -29,12 +29,6 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
-                         <a href="dingdanbuy.php">我的订单（买）</a>
-                    </li>
-                        <li>
-                            <a href="">我的订单（卖）</a>
-                        </li>
                     <li>
                         <i class="glyphicon glyphicon-star" aria-hidden="true"></i>
                         <a href="">收藏夹</a>
@@ -159,6 +153,15 @@
 
 
         </section>
+    </div>
+    <div class="container box">
+        <h3 style="margin-left:50px">为您推荐：</h3>
+        <?php
+            $results = Recommand::getKeyWordItem($_COOKIE['rec']);
+            $result = $results[0];
+            $result1 = $results[1];
+            $result2 = $results[2];
+        ?>
     </div>
     <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
     <script src="./js/bootstrap.js"></script>

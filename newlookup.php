@@ -82,36 +82,12 @@
     </div>
 </header>
 <?php
+require('recommand.php');
+$results = Recommand::searchResult();
 
-function makeSql($names){//多关键字查询
-    $sql = 'where name ';
-    if(!$names || empty($names)) return '';
-    for($i=0;$i<count($names);$i++) {
-        if($i==0) $sql.= "like '%$names[$i]%'";
-        else $sql.= "or name like '%$names[$i]%'";
-    }
-    return $sql;
-}
-$con = mysql_connect("localhost","root","");
-mysql_query("set names utf8");
-mysql_select_db("test", $con);
-$name = $_POST['query'];
-$name1=split(' ',$name);
-//if(!isset($name1[1])) $name1[1]=' ';
-//if(!isset($name1[2])) $name1[2]=' ';
-//if(!isset($name1[3])) $name1[3]=' ';
-//var_dump($name1);//输出$name1
-//$sql = "select * from BOOK1 where bookname LIKE '%{$name}%' ";
-//var_dump(makeSql($name1));
-//echo makeSql($name1[0],$name1[1],$name1[2],$name1[3]);
-//$name2=makeSql($name1[0],$name1[1],$name1[2],$name1[3]);
-$name2 = makeSql($name1);
-$sql = "select * from BOOK1 $name2 ";
-$sql1= "select * from CLOTH1 $name2 ";
-$sql2= "select * from LIFETHING1 $name2 ";
-$result = mysql_query($sql);
-$result1 = mysql_query($sql1);
-$result2 = mysql_query($sql2);
+$result = $results[0];
+$result1 = $results[1];
+$result2 = $results[2];
 ?>
 <div class="main">
     <ul style="border-top: 1px dotted #eee;" class="list-ad-items">
@@ -162,9 +138,7 @@ $result2 = mysql_query($sql2);
                 </div>
             </div>
         </li>
-        <?php }
-        mysql_close($con);
-        ?>
+        <?php } ?>
     </ul>
 
 </div>
