@@ -100,10 +100,9 @@
 $con = mysql_connect("localhost","root","");
 mysql_query("set names utf8");
 mysql_select_db("test", $con);
-$sql="select * from buy where name = '{$_COOKIE['USER']}' ORDER BY TIME DESC ";
+$sql="select * from sold where name = '{$_COOKIE['USER']}' ORDER BY TIME DESC ";
 $result = mysql_query($sql);
 ?>
-
 <div class="main">
     <ul style="border-top: 1px dotted #eee;" class="list-ad-items">
         <?php
@@ -115,12 +114,14 @@ $result = mysql_query($sql);
 
             ?>
             <?php  while($row1 = mysql_fetch_array($result1)){ ?>
-                <span class="time">成交时间:<?php echo $row['time']?> 卖家：<?php echo $row['owner']?></span>
+                <span class="time">发布时间:<?php echo $row['time']?> 买家：<?php echo $row['buyer']?> 地址：<?php echo
+                    $row['address']
+                    ?></span>
                 <hr class="fenge" size="50" />
                 <li class="listing-cpm-ad search-promote item-pinned seen">
                     <a href="shangpinye.php?id=<?php echo $row1['id']?>&table=<?php echo $row['table1']?>"
                        target="_blank"
-                    class="media-cap">
+                       class="media-cap">
                         <img class="img1" src="<?php echo $row1['photo'] ?>">
                     </a>
 
@@ -130,7 +131,7 @@ $result = mysql_query($sql);
                             <a href="shangpinye.php?id=<?php echo $row1['id']?>&table=<?php echo $row['table1'] ?>"
                                target="_blank"
                                class="ad-title"><?php echo $row1['name'] ?></a>
-                            <span class="deal">成交价:</span>
+                            <span class="deal">价格:</span>
                             <span class="highlight">￥<?php echo $row1['price'] ?></span>
 
                         </div>
@@ -140,7 +141,5 @@ $result = mysql_query($sql);
         <?php }?>
     </ul>
 </div>
-<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
-<script src="./js/bootstrap.js"></script>
 </body>
 </html>

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="./css/newlookup1.css" type="text/css">
     <link rel="stylesheet" href="./css/shangpinye.css" type="text/css">
+    <link rel="stylesheet" href="./css/tuijian.css" type="text/css">
     <title>华师大二手网站</title>
 </head>
 <body class="w1190">
@@ -29,6 +30,12 @@
                         </li>
                     </ul>
 
+                </li>
+                <li>
+                    <a href="dingdanbuy.php">我的订单（买）</a>
+                </li>
+                <li>
+                    <a href="dingdansold.php">我的订单（卖）</a>
                 </li>
                 <li>
                     <i class="glyphicon glyphicon-star" aria-hidden="true"></i>
@@ -206,6 +213,7 @@ $row = mysql_fetch_array($result);
                 </div>
             </div>
         </div>
+
     </div>
 <script>
     var text=$("#message1").val();

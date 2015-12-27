@@ -37,7 +37,7 @@ else{
             $result=mysql_query($sql,$con);
             $row = mysql_affected_rows($con);
             $id=mysql_insert_id();
-            $sql1="INSERT INTO SOLD (name,table1,id) VALUES ('$name1','$table',$id)";
+            $sql1="INSERT INTO SOLD (name,table1,id,time) VALUES ('$name1','$table',$id,now())";
             $result1=mysql_query($sql1,$con);
             $row1 = mysql_affected_rows($con);
             echo $row1;

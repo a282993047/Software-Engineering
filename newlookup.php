@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="./css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="./css/newlookup1.css" type="text/css">
+
     <title>华师大二手网站</title>
 </head>
 <body>
@@ -28,6 +29,12 @@
                         </li>
                     </ul>
 
+                </li>
+                <li>
+                    <a href="dingdanbuy.php" >我的订单（买）</a>
+                </li>
+                <li>
+                    <a href="dingdansold.php" >我的订单（卖）</a>
                 </li>
                 <li>
                     <i class="glyphicon glyphicon-star" aria-hidden="true"></i>
